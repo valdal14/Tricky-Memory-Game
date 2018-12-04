@@ -22,7 +22,7 @@ When all the pairs have been found, the player wins.
 
 ## Sample Screens
 
-![Start](https://github.com/valdal14/From-CommerceCloud-To-ServiceCloud/blob/master/screens/1.PNG?raw=true "From-CommerceCloud-To-ServiceCloud")
+![Start](https://github.com/valdal14/Tricky-Memory-Game/blob/master/images/image.png?raw=true "From-CommerceCloud-To-ServiceCloud")
 
 ---
 
