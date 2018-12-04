@@ -26,6 +26,10 @@ When all the pairs have been found, the player wins.
 
 ---
 
+## Game play
+
+[YouTube video](https://youtu.be/tlfog9iOECw)
+
 ## Contribution
 
 You can [download](https://github.com/valdal14/Tricky-Memory-Game) the source code and play with it if you want to improve the game. If you spot some bugs, feel free to fix them.
