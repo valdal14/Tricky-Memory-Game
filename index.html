@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://bootswatch.com/4/litera/bootstrap.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.0/animate.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.5.0/css/all.css"
+      integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU"
+      crossorigin="anonymous"
+    />
+    <title>Tricky Memory Game</title>
+  </head>
+  <body id="body">
+    <h1 id="titleGame">Tricky Memory Game</h1>
+    <div class="containerDiv" id="gameContainer">
+      <div id="row1" onClick="selectedRow(this.id)"><span></span></div>
+      <div id="row2" onClick="selectedRow(this.id)"><span></span></div>
+      <div id="row3" onClick="selectedRow(this.id)"><span></span></div>
+      <div id="row4" onClick="selectedRow(this.id)"><span></span></div>
+      <div id="row5" onClick="selectedRow(this.id)"><span></span></div>
+      <div id="row6" onClick="selectedRow(this.id)"><span></span></div>
+      <div id="row7" onClick="selectedRow(this.id)"><span></span></div>
+      <div id="row8" onClick="selectedRow(this.id)"><span></span></div>
+      <div id="row9" onClick="selectedRow(this.id)"><span></span></div>
+    </div>
+    <div class="gameOver" id="gameOver">
+      <h2>GAME OVER</h2>
+      <button id="restartBtn" class="btn btn-success">Restart the Game</button>
+    </div>
+    <br /><br />
+    <div class="gameFinalResults" id="gameFinalResults">
+      <div class="attempts">Attempts</div>
+      <div class="score"><i class="fas fa-award"></i></div>
+      <div class="times">Time</div>
+      <div class="attempts" id="numberOfAttempts"></div>
+      <div class="score">YOU WON!!!</div>
+      <div class="times" id="timing"></div>
+    </div>
+  </body>
+
+  <script src="app.js"></script>
+</html>
